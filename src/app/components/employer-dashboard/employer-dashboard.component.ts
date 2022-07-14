@@ -34,28 +34,28 @@ export class EmployerDashboardComponent implements OnInit {
           }
         }
       )
-      render(
-        {
-          id:"#paypalRef1",
-          currency:"USD",
-          value:"19.99",
-          onApprove:(details) =>{
-            alert("Transaction successful")
+      // render(
+      //   {
+      //     id:"#paypalRef1",
+      //     currency:"USD",
+      //     value:"19.99",
+      //     onApprove:(details) =>{
+      //       alert("Transaction successful")
 
-          }
-        }
-      )
-      render(
-        {
-          id:"#paypalRef2",
-          currency:"USD",
-          value:"29.99",
-          onApprove:(details) =>{
-            alert("Transaction successful")
+      //     }
+      //   }
+      // )
+      // render(
+      //   {
+      //     id:"#paypalRef2",
+      //     currency:"USD",
+      //     value:"29.99",
+      //     onApprove:(details) =>{
+      //       alert("Transaction successful")
 
-          }
-        }
-      )
+      //     }
+      //   }
+      // )
     }
 
     jobseekerProfileForm= new FormGroup({
